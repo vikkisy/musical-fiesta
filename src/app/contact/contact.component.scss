@@ -1,0 +1,97 @@
+.content {
+    padding: 120px 50px 150px 50px;
+    text-align: center;
+    height: 100vh;
+    
+}
+.head {
+  display: inline-block;
+//   font: 300 32px/1 'Open Sans', sans-serif;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: rgb(46, 46, 56);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.row {
+
+    padding: 25px 0 50px 0;
+    // align-content: center;
+    display: inline-block;
+}
+.row img {
+  width: 70%;
+  margin-bottom: 15px;
+  border-bottom: 5px solid white;
+  transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+}
+.row a {
+  margin: 0 5px;
+  text-decoration: none;
+
+}
+
+.row img:hover {
+  text-decoration: none;
+  width: 68%;
+  border: 1px solid #5f4d8c;
+  box-shadow: 5px 3px 10px #5f4d8c;
+  border-radius: 50%;
+  // border-bottom: 5px;
+  // animation-name: bounce;
+  // animation-duration: 700ms;
+  // animation-timing-function: linear;
+  // animation-fill-mode: forwards;
+}
+// .head {
+//   opacity: 0;
+//   animation-name: bounceIn;
+//   animation-duration: 450ms;
+//   animation-timing-function: linear;
+//   animation-fill-mode: forwards;
+// }
+
+.email {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+}
+.linkedin {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+}
+.github {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+}
+.footer {
+  margin-top: 25px;
+}
+.footer img{
+  width: 15%;
+}
+
+@keyframes bounce{
+  0%{
+    opacity: 0;
+    transform: scale(0.5) translate3d(0,0,0);
+
+  }
+  50%{
+    opacity: 0.2;
+    transform: scale(1.1);
+
+  }
+  // 80%{
+  //   opacity: 1;
+  //   transform: scale(0.89);
+
+  // }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+
+  }
+}
